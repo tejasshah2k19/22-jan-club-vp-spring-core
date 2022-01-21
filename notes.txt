@@ -1,0 +1,91 @@
+spring core 
+spring web 
+spring boot--zero configuration
+
+
+1) core 
+2) web 
+3) data 
+4) aop 
+5) test 
+ 
+ 
+ 
+ jar? 
+ core module 
+ 	core
+ 	bean
+ 	context
+ 	el 
+ 	
+ 	
+ 	
+ maven-> users  -> .m2 ->  spring core 3.1.15 [download] 
+						   spring core 3.2.15 [download]  
+ project1-> 
+ 	link -->
+ 	
+ 	
+ project2->
+	 link--> 	
+ 	
+ 	
+ project3-> 
+ 	link -> 
+ 	
+ 1) local repository -- computer  
+ 2) central repo   -- local server 
+ 3) remote repo   --  mvnrepository web 
+ 
+ ----------------------------------------------------------------------------
+ 
+ 
+Signup.jsp
+		FirstName
+		Email
+		Password	
+					submit 
+					
+SignupServlet 
+
+			getParameter 
+			UserBean user = new UserBean();
+			setters 
+			
+			UserDao userDao = new UserDao(); 
+ 			userDao.insert(user);
+ 	
+ 500 request --> 		500 userbena 500 dao 
+ 
+ 		server --> apachetomcat --> servlet container 	
+ 		web.xml -->
+ 
+ 
+ 1 userbean 1 dao 
+ 		spring container -- ioc container 
+ 		spring.xml 
+ 		
+ 		interface 
+ 1) BeanFactory - 47
+ 2) ApplicationContext - 20 
+ 
+ ApplicationContext is child of BeanFactory 
+ 
+2.1 FileSystemApplicationContext 
+2.2 ClasspathXmlApplicationContext 
+2.3 WebXmlApplicationContext  
+ 
+ 
+ 
+ spring bean --> life cycle - memory allocation - release -- spring container 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
