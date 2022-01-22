@@ -79,7 +79,14 @@ SignupServlet
  
  spring bean --> life cycle - memory allocation - release -- spring container 
  
+ ----------------------------------------------------------------------------------------------
  
+ 
+ Depn ==> 
+ 
+ DI ==> dep. injection 
+ 				1) constructor injection  [ mandatory ] 
+ 			    2) setter injection       [ optional ] 
  
  
  

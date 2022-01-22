@@ -6,7 +6,7 @@
 <beans>
 
 <!-- scope="singleton" -->
-	<bean class="com.bean.UserBean" id="userBean" scope="singleton"  lazy-init="true"></bean>
+	<bean class="com.bean.UserBean" id="userBean" lazy-init="true" ></bean>
 	<bean class="com.dao.UserDao" id="userDao"></bean>
 	
 </beans>
